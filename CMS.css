@@ -1,0 +1,198 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    list-style-type: none;
+    background-image: url("https://i.ibb.co/X4KyyW4/Untitled-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.scroll-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-container section {
+    width: 100%;
+    height: 100%;
+}
+
+
+.navigation {
+    overflow: hidden;
+    z-index: 100;
+    width: 100%;
+    margin-top: 3rem;
+font-family: "Raleway", sans-serif;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: 20pt;
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+}
+
+.navbar {
+    margin-right: 6rem;
+
+}
+
+.logo {
+    float: left;
+    margin-left: 7rem;
+    margin-top: 1rem;
+
+}
+
+.comb {
+    float: left;
+    color: white;
+    font-size: 18pt;
+    margin-top: 2rem;
+    font-family: "Minion Variable Concept";
+
+}
+
+.logo img {
+    width: 110px;
+    height: 60px;
+
+}
+
+.section2,.section3,.section5,.section6,.section4,.section7{
+    background-color: white;
+}
+.section6{
+    margin-top: -40rem;
+}
+.section7{
+    margin-top: -20rem;
+}
+.all {
+    position: relative;
+    top: 20rem;
+}
+
+.Myname {
+    font-size: 50pt;
+    text-align: center;
+}
+
+
+
+.thanh1 {
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 760px;
+    height: 5px;
+    margin-top: 2rem;
+}
+
+.title2 {
+    font-size: 19pt;
+    margin-top: 2rem;
+}
+
+.section3{
+    margin-top: -19rem;
+}
+.name1{
+    font-weight: 400;
+    margin-left: .5rem;
+}
+.namecombine,.name2{
+    display: flex;
+    position: relative;
+    top: 8rem;
+    left: 5rem; 
+    font-size: 60pt;
+    color: #4d4d4d;
+    font-family: "Roboto";
+    font-weight: 100;
+    
+}
+.name2{
+    top: 9rem;    
+    font-size: 30pt;
+    font-weight: 200;
+    
+}
+.name2 a{
+    margin-left: 1rem;
+}
+
+.app img{
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.app{
+    position: relative;
+    top:15rem;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.black{
+    width: 100%;
+    background-color: black;
+    height: 10px;
+    z-index: 100;
+}
+.black2{
+    width: 100%;
+    background-color: black;
+    height: 10px;
+    z-index: 100;
+    margin-top: -28rem;
+}
+.app2 img{
+    width: 80%;
+    margin-left: 12rem;
+    margin-top: -28.8rem;
+}
+.app3 img{
+    width: 100%;
+    margin-top: 2rem;
+}
+.app4 img{
+    width: 80%;
+    margin-left: 12rem;
+    margin-top: -25rem;
+}
+.back{
+    
+    width: 100%;
+    height: 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6rem;
+}
+
+.back a {
+    color: white;
+    text-align:center;
+    text-decoration:white;
+}
