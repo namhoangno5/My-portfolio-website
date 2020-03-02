@@ -244,7 +244,14 @@ font-family: "Raleway", sans-serif;
 background: linear-gradient(168deg, rgba(255,142,8,1) 0%, rgba(255,113,32,1) 15%, rgba(255,74,65,1) 44%, rgba(255,36,101,1) 83%, rgba(255,29,107,1) 94%, rgba(255,8,125,1) 100%);
     border-radius: 65px;
 }
-
+video{
+    width: 48.7%;
+    margin-left: 50rem;
+    margin-top: -50rem;
+    margin-bottom: 5.4rem;
+        margin-left: 54rem;
+    
+}
 
 .title a {
     color: white;
