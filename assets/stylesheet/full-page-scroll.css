@@ -10,7 +10,13 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
+
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
 }
 
 .scroll-container {
@@ -94,7 +100,7 @@ html {
     z-index: 100;
     width: 100%;
     margin-top: 3rem;
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 
 }
 
@@ -147,20 +153,20 @@ font-family: "Raleway", sans-serif;
 
 .Myname {
     display: grid;
-    justify-content: flex-start;
     font-size: 50pt;
     width: 580px;
 }
 
 #name1 {
     margin-bottom: -3.5rem;
-    display: grid;
-    justify-content: flex-start;
 }
 
 .thanh1,
 .thanh2,
-.thanh3,.thanh4,.thanh5,.thanh6 {
+.thanh3,
+.thanh4,
+.thanh5,
+.thanh6 {
     background: rgb(255, 142, 8);
     background: linear-gradient(90deg, rgba(255, 142, 8, 1) 20%, rgba(255, 113, 32, 1) 40%, rgba(255, 74, 65, 1) 60%, rgba(255, 36, 101, 1) 80%, rgba(255, 8, 125, 1) 100%);
 }
@@ -179,6 +185,7 @@ font-family: "Raleway", sans-serif;
     float: left;
     margin-left: 25rem;
     margin-top: 29rem;
+    font: 150pt;
 }
 
 .thanh2,
@@ -195,21 +202,24 @@ font-family: "Raleway", sans-serif;
 .thanh3 {
     margin-left: -10rem;
 }
-.thanh4{
+
+.thanh4 {
     width: 247px;
     height: 5px;
 }
-.thanh5{
+
+.thanh5 {
     width: 326px;
     height: 5px;
 }
-.thanh6{
+
+.thanh6 {
     width: 355px;
     height: 5px;
 }
 
 #name3 {
-    font-size: 50pt;
+    font-size: 3vw;
 }
 
 #name2 {
@@ -227,7 +237,7 @@ font-family: "Raleway", sans-serif;
 
 }
 
-#card{
+#card {
     cursor: auto;
 }
 
@@ -236,21 +246,35 @@ font-family: "Raleway", sans-serif;
     cursor: pointer;
 
 }
-.photo img{
-    padding: 1rem 1.5rem 0 1.5rem ;
+
+.photo img {
+    padding: 1rem 1.5rem 0 1.5rem;
 }
-.photo{
-    background: rgb(255,142,8);
-background: linear-gradient(168deg, rgba(255,142,8,1) 0%, rgba(255,113,32,1) 15%, rgba(255,74,65,1) 44%, rgba(255,36,101,1) 83%, rgba(255,29,107,1) 94%, rgba(255,8,125,1) 100%);
+
+.photo {
+    background: rgb(255, 142, 8);
+    background: linear-gradient(168deg, rgba(255, 142, 8, 1) 0%, rgba(255, 113, 32, 1) 15%, rgba(255, 74, 65, 1) 44%, rgba(255, 36, 101, 1) 83%, rgba(255, 29, 107, 1) 94%, rgba(255, 8, 125, 1) 100%);
     border-radius: 65px;
 }
-video{
-    width: 48.7%;
-    margin-left: 50rem;
-    margin-top: -50rem;
-    margin-bottom: 5.4rem;
-        margin-left: 54rem;
-    
+
+video {
+    width: 90%;
+    padding: 5rem 0rem 0 3rem;
+
+}
+
+video controls{
+    padding-top: -5rem;
+}
+.video {
+    background: rgb(255, 142, 8);
+    background: linear-gradient(168deg, rgba(255, 142, 8, 1) 0%, rgba(255, 113, 32, 1) 15%, rgba(255, 74, 65, 1) 44%, rgba(255, 36, 101, 1) 83%, rgba(255, 29, 107, 1) 94%, rgba(255, 8, 125, 1) 100%);
+    border-radius: 65px;
+    width: 1010px;
+    height: 675px;
+    margin-left: 51.3rem;
+    float: left;
+    margin-top: -27.2rem;
 }
 
 .title a {
@@ -336,64 +360,128 @@ video{
     font-size: 30pt;
 
 }
-.all3{
+
+.all3 {
     float: left;
     margin-top: 12rem;
 }
+
 .butto {
-  display: -webkit-inline-box;
-  display: inline-flex;
-  height: 50px;
-  width: 140px;
-  margin-top: 2rem;
-  text-decoration: none;
-  font-size: 16pt;
-  letter-spacing: 1.5px;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  overflow: hidden;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    height: 50px;
+    width: 140px;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 16pt;
+    letter-spacing: 1.5px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
     border-radius: 15px;
-    background: rgb(255,142,8);
-background: linear-gradient(168deg, rgba(255,142,8,1) 0%, rgba(255,113,32,1) 15%, rgba(255,74,65,1) 44%, rgba(255,36,101,1) 83%, rgba(255,29,107,1) 94%, rgba(255,8,125,1) 100%);
+    background: rgb(255, 142, 8);
+    background: linear-gradient(168deg, rgba(255, 142, 8, 1) 0%, rgba(255, 113, 32, 1) 15%, rgba(255, 74, 65, 1) 44%, rgba(255, 36, 101, 1) 83%, rgba(255, 29, 107, 1) 94%, rgba(255, 8, 125, 1) 100%);
 }
 
 a {
-  color: white;
-  text-decoration: none;
-  letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 
 #butto-2 {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 #butto-2 a {
-  position: relative;
-  -webkit-transition: all .35s ease-Out;
-  transition: all .35s ease-Out;
+    position: relative;
+    -webkit-transition: all .35s ease-Out;
+    transition: all .35s ease-Out;
 }
 
 #slid {
-  width: 100%;
-  height: 100%;
-  left: -200px;
-  background-color: white;
-  position: absolute;
-  -webkit-transition: all .35s ease-Out;
-  transition: all .35s ease-Out;
-  bottom: 0;
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background-color: white;
+    position: absolute;
+    -webkit-transition: all .35s ease-Out;
+    transition: all .35s ease-Out;
+    bottom: 0;
 }
 
 #butto-2:hover #slid {
-  left: 0;
+    left: 0;
 }
 
 #butto-2:hover a {
-  color: rgb(255,142,8);
-color: linear-gradient(15%, rgba(255,74,65,1) 44%, rgba(255,36,101,1) 83%, rgba(255,29,107,1) 94%, rgba(255,8,125,1) 100%);;
+    color: rgb(255, 142, 8);
+    color: linear-gradient(15%, rgba(255, 74, 65, 1) 44%, rgba(255, 36, 101, 1) 83%, rgba(255, 29, 107, 1) 94%, rgba(255, 8, 125, 1) 100%);
+    ;
 }
-    
+
+@media only screen and (min-width: 1750px) and (max-width: 1850px) {
+    .all3 {
+        margin-top: -27rem;
+        margin-left: 42rem;
+        margin-right: 5rem;
+    }
+
+    .video {
+        margin-left: 42rem;
+        margin-right: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1750px) {
+    .Myname {
+        display: grid;
+        font-size: 3.5vw;
+    }
+
+    #name2 {
+        margin-top: 3.5rem;
+    }
+
+    .title2 {
+
+        width: 350px;
+        font-size: 1.5vw;
+    }
+
+    .thanh1 {
+
+        width: 370px;
+    }
+
+    .all2 {
+        margin-left: 15rem;
+    }
+
+    .thanh2,
+    .thanh3 {
+        width: 280px;
+    }
+
+    .all3 {
+        float: left;
+        margin-top: -26rem;
+        margin-left: 32rem;
+        margin-right: 5rem;
+    }
+
+    .video {
+        margin-left: 32rem;
+        margin-right: 5rem;
+    }
+    .photo img {
+        padding: .5rem 1rem 0 .5rem;
+    }
+    .last{
+        margin-top: -3rem;
+    }
+}
